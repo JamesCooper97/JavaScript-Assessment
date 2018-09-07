@@ -1,0 +1,25 @@
+<!DOCTYPE html5>
+<html>
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <script src="js/myFunctions.js"></script>
+    </head>
+    <body>
+        <div class='navbar'>
+            <div class='dropdown' id='JSON-dropdown' onmouseleave="closeAll()">
+                <button onmouseover='JSONDropDown()'>JSON</button>
+                <ul id='JSONSelection' style="display: none;"> 
+                    <li onmouseover="hoverOver1(this.id)" onmouseout="stopHover(this.id)" id="a"><a href="trainer.html">JSON manipulation</a></li>
+                </ul>
+            </div>
+            <div class='dropdown' id='form-dropdown' onmouseleave="closeAll()">
+                <button onmouseover='formDropDown()' style="position: center">Forms</button>
+                <ul id='formSelection' style="display: none;">
+                    <li onmouseover="hoverOver1(this.id)" onmouseout="stopHover(this.id)" id="b"><a href="entryform.html">Entry Form</a></li>
+                    <li onmouseover="hoverOver1(this.id)" onmouseout="stopHover(this.id)" id="c"><a href="formdata.html">Form Data</a></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+.navbar {
+    position: absolute;
+    display: flex;
+}
+
+ul,li {
+    text-decoration: none;
+}
